@@ -1,0 +1,186 @@
+body {
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Pattaya', sans-serif;
+    padding-bottom: 30px;
+}
+
+p {
+    color: #c9d6df;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: #c9d6df;
+}
+
+a:hover {
+    color: #52616b;
+}
+
+.italic {
+    text-decoration: underline;
+}
+
+
+/*NavBar*/
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Pattaya', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/*Sections*/
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.colored-section {
+    background-color: #1e2022;
+    color: #f0f5f9;
+}
+
+.white-section {
+    background-color: #f0f5f9;
+    color: #1e2022;
+}
+
+.white-section p {
+    color: #52616b;
+}
+
+
+/*Header Section*/
+
+.heading-section {
+    padding: 2% 15% 7%;
+}
+
+.title {
+    position: relative;
+    top: 20px;
+    font-size: 5.625rem;
+}
+
+.title-image {
+    position: absolute;
+    width: 23%;
+    left: 0;
+    top: 0;
+}
+
+
+/*Skills Section*/
+
+#skills {
+    background-color: #52616b
+}
+
+.skills-title {
+    text-decoration: underline;
+    font-size: 2.5rem;
+}
+
+.skill-name {
+    font-size: 2.2rem;
+}
+
+.skills-text {
+    text-align: left;
+    color: #c9d6df;
+    font-size: 1.2rem;
+}
+
+.skills-sentence {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+/*Hobbies Section*/
+
+#hobbies {
+    position: relative;
+}
+
+.hobbies-title {
+    text-decoration: underline;
+    font-size: 2.5rem;
+}
+
+.hobbies-text {
+    text-align: left;
+}
+
+.hobbies-image {
+    position: absolute;
+    width: 23%;
+    right: 0;
+    bottom: 0;
+}
+
+
+/*Contact Section*/
+
+.contact-title {
+    text-decoration: underline;
+    font-size: 3.5rem;
+}
+
+.contact-icon {
+    font-size: 2rem;
+    margin: auto 100px;
+}
+
+/*Posts Section*/
+#posts {
+    position: relative;
+}
+
+
+/*Footer Section*/
+
+.footer-section {
+    margin: 3% auto 0;
+}
+
+.copyright {
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+
+/*Social Media*/
+
+.social-icon {
+    padding: 20px 10px;
+}
