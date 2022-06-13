@@ -5,17 +5,16 @@
 @section('content')
 <section class="colored-section"  id="hobbies">
     <div class="container-fluid">
+        @include('projects.posts.partials.showall')
         <div class="row">
             <div class="col-md-12">
-                @php PostsController::getTitle(); @endphp
+                    <h1  class="text-center">Create Post</h1>
             </div>
         </div>
         <div class="row">
             <form action="{{ route('projects.posts.store') }}" method="POST">
                 @csrf
-                <div class="col-md-12">
-                    @include('projects.posts.partials.form')
-                </div>
+                @include('projects.posts.partials.form')
                 <div class="col-md-12"><input type="submit" value="Create" class="btn btn-primary"></div>
             </form>
         </div>
