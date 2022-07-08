@@ -149,6 +149,11 @@ a:hover {
 }
 
 
+/*Calculator Section*/
+.calculator.red input:read-only{
+    background-color:red !important;
+    color: #FFF;
+}
 /*Contact Section*/
 
 .contact-title {

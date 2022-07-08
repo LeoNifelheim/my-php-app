@@ -5,6 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\HobbiesController;
 use App\Http\Controllers\SkillsController;
 use App\Http\Controllers\PostsController;
+use App\Http\Controllers\CalculatorController;
 use App\Http\Controllers\ProjectsController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -33,6 +34,12 @@ Route::prefix('/projects')->name('projects.')->group(function(){
         ->name('index');
     Route::resource('/posts', PostsController::class)
         ->only(['index', 'show', 'create', 'store', 'edit', 'update', 'destroy']);
+    Route::prefix('/calculator')->name('calculator.')->group(function(){
+        Route::get('', [CalculatorController::class, 'index'])
+            ->name('index');
+        Route::post('/show', [CalculatorController::class, 'show'])
+            ->name('show');
+    });
 });
 
 Auth::routes();

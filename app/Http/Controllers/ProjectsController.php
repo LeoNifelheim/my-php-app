@@ -14,8 +14,8 @@ class ProjectsController extends Controller
     {
       return view('projects.index');
     }
-    public static function getTitle(): void
+    public static function getTitle($title): void
     {
-        echo '<h2 class="hobbies-title">Projects</h2>';
+        echo '<h2 class="hobbies-title">'.$title.'</h2>';
     }
 }
